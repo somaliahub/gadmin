@@ -12,5 +12,7 @@ Admin::registerAuthRoutes();
 
     $router->get('/', 'HomeController@index');
     $router->resource('article', 'Home\ArticleController' );
+    $router->resource('goods', 'Home\GoodsController' );
+    $router->resource('website', 'Home\WebsiteController' );
 
 });
