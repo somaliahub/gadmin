@@ -30,4 +30,14 @@ class Controller extends BaseController
             '4' => '商品4',
         ];
     }
+
+    public function getSimpleNoticeType()
+    {
+        return [
+            '1' => '上',
+            '2' => '中',
+            '3' => '中-滚动',
+            '4' => '右下',
+        ];
+    }
 }

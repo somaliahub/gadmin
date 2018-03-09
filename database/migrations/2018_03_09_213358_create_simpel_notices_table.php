@@ -13,11 +13,11 @@ class CreateSimpelNoticesTable extends Migration
      */
     public function up()
     {
-        Schema::create('simpel_notices', function (Blueprint $table) {
+        Schema::create('simple_notices', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
             $table->text('content');
-            $table->unsignedSmallInteger('type');
+            $table->string('type');
             $table->unsignedSmallInteger('released');
             $table->timestamps();
         });
