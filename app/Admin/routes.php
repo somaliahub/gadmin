@@ -15,4 +15,5 @@ Admin::registerAuthRoutes();
     $router->resource('goods', 'Home\GoodsController' );
     $router->resource('website', 'Home\WebsiteController' );
     $router->resource('simplenotice', 'Home\SimpleNoticeController' );
+    $router->resource('friendlylink', 'Home\FriendlyLinkController' );
 });
